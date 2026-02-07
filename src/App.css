@@ -1,0 +1,27 @@
+.main{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.main-container{
+  width: min(90%, 1000px);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: #1c1c1f;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.164);
+  padding: 1rem 2.5rem;
+  transition: box-shadow 220ms ease, transform 220ms ease;
+}
+
+.main-container:hover{
+  box-shadow:
+    0px 0px 15px rgba(0, 0, 0, 0.164),
+    0px 0px 24px rgba(119, 0, 255, 0.452); 
+}
